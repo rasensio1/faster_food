@@ -1,18 +1,10 @@
 <%= stylesheet_link_tag 'heroic-features', media: 'all', 'data-turbolinks-track' => true %>
-
-<!-- Page Content -->
 <div class="container">
-
-    <!-- Jumbotron Header -->
     <header class="jumbotron hero-spacer">
         <h1>All Categories</h1>
     </header>
-
     <hr>
-
-    <!-- Categories -->
     <% @categories.each do |category| %>
-
     <div class="col-md-4 col-sm-6 hero-feature">
         <div class="thumbnail">
             <img src=<%= category.image_url %> alt="">
@@ -24,8 +16,5 @@
     <% end %>
 </div>
 
-<!-- jQuery -->
 <script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>

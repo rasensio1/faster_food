@@ -1,9 +1,5 @@
 <%= stylesheet_link_tag 'heroic-features', media: 'all', 'data-turbolinks-track' => true %>
-
-  <!-- Page Content -->
   <div class="container">
-
-      <!-- Jumbotron Header -->
       <header class="jumbotron hero-spacer">
           <h1>All Items</h1>
           <p>
@@ -13,17 +9,9 @@
             <p><%= link_to "Add Item", new_admin_item_path(category_id: @category.id) %></p>
           <% end %>
       </header>
-
       <hr>
-      <!-- Title -->
-
-      <!-- Items -->
       <%= render partial: "item", collection: @items %>
   </div>
-  <!-- /.container -->
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
