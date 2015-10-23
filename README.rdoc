@@ -1,28 +1,7 @@
-== README
+# Faster Food
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### [Justin Holzmann](#), [Michael Wong](#), [Ryan Asensio](https://github.com/rasensio1)
 
-Things you may want to cover:
+Faster Food was our group's first taste of a real Ruby on Rails app at the [Turing School](http://turing.io). Groups are tasked to build an e-commerce store and implement any additional features that interest them.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Our group's application is a designed to be a whitelabel experience for restaurants who want their food delivered by drone. We integrated a the Twilio and Stripe APIs, as well as a simple API that calculates straight-line distance from a given address.
